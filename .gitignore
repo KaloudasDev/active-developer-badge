@@ -19,5 +19,6 @@ build/
 .node_repl_history
 
 # Discord bot specific
-config.json
 *.tmp
+config.json
+package-lock.json
