@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Discord bot specific
+config.json
+*.tmp
