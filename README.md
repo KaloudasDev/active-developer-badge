@@ -6,7 +6,7 @@ Professional Node.js bot template for Discord Active Developer Badge acquisition
 
 ## Overview
 
-This repository provides a production-ready Discord bot implementation that qualifies for the Discord Active Developer Badge program. The solution includes a minimal yet complete bot with proper command handling and deployment procedures.
+This repository provides a production-ready Discord bot implementation that qualifies for the Discord Active Developer Badge program. The solution includes a complete bot with proper command handling and deployment procedures.
 
 ## Features
 
