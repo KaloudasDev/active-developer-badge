@@ -60,4 +60,4 @@ Execute the `/badge` command in your Discord server and follow the official clai
 This project is licensed under the MIT License. See [LICENSE](LICENSE) file for complete terms.
 
 > [!TIP]
-> For optimal results, keep your bot running continuously for 24 hours after command execution and verify badge eligibility status directly in the Discord Developer Portal administration dashboard.
+> For optimal results, keep your bot running continuously for 24 hours after command execution and verify badge eligibility status directly in the official Discord Developer Portal administration dashboard interface.
