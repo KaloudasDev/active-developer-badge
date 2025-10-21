@@ -1,4 +1,4 @@
-![Banner]([https://cdn.shopify.com/s/files/1/0559/4788/6783/files/Active_Developer_Badge.png?v=1685712011](https://i.imgur.com/uqbt4GM.jpeg))
+![Banner](https://i.imgur.com/uqbt4GM.jpeg)
 
 # Active Developer Badge Guide
 
