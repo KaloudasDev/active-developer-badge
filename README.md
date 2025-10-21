@@ -16,7 +16,7 @@ This repository provides a production-ready Discord bot implementation designed 
 - **Production-Ready Configuration** - Environment-based security and deployment setup
 
 > [!TIP]
-> This implementation requires only one successful command execution to qualify for the badge. No complex bot functionality needed.
+> This implementation requires only one successful command execution to qualify for the badge.
 
 ## Quick Start
 
@@ -46,7 +46,7 @@ Execute the `/badge` command in your Discord server and follow the official clai
 - [**Eligibility Requirements**](docs/ELIGIBILITY.md) - Official Discord badge criteria
 
 > [!CAUTION]
-> Maintain bot activity by executing commands at least once every 30 days to preserve badge eligibility. Inactivity beyond this period will require re-qualification.
+> Maintain bot activity by executing commands at least once every 30 days to preserve badge eligibility status. Inactivity beyond this period will require complete re-qualification.
 
 ## Requirements
 
@@ -60,4 +60,4 @@ Execute the `/badge` command in your Discord server and follow the official clai
 This project is licensed under the MIT License. See [LICENSE](LICENSE) file for complete terms.
 
 > [!TIP]
-> For optimal results, keep your bot running continuously for 24 hours after command execution and verify badge eligibility in the Discord Developer Portal.
+> For optimal results, keep your bot running continuously for 24 hours after command execution and verify badge eligibility status directly in the Discord Developer Portal administration dashboard.
