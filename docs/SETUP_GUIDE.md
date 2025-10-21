@@ -57,6 +57,8 @@ npm start
 2. Execute `/badge` command in any server channel
 3. Verify successful command response
 
+![Command](https://i.imgur.com/vZyym96.png)
+
 ## Step 8: Badge Claim Process
 
 1. Wait 24 hours following successful command execution
