@@ -1,5 +1,7 @@
 # Active Developer Badge Guide
 
+![Banner](https://cdn.shopify.com/s/files/1/0559/4788/6783/files/Active_Developer_Badge.png?v=1685712011)
+
 Professional Node.js bot template for Discord Active Developer Badge acquisition.
 
 ## Overview
