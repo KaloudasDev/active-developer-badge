@@ -46,7 +46,7 @@ Execute the `/badge` command in your Discord server and follow the official clai
 - [**Eligibility Requirements**](docs/ELIGIBILITY.md) - Official Discord badge criteria
 
 > [!CAUTION]
-> Maintain bot activity by executing commands at least once every 30 days to preserve badge eligibility status. Inactivity beyond this period will require complete re-qualification.
+> Maintain bot activity by executing commands at least once every 30 days to preserve badge eligibility status and access privileges. Inactivity beyond this period will require complete re-qualification.
 
 ## Requirements
 
