@@ -1,0 +1,66 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x]
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        cache-dependency-path: 'bot/package-lock.json'
+    
+    - name: Install dependencies
+      run: cd bot && npm ci
+      
+    - name: Verify bot structure
+      run: |
+        cd bot
+        node -e "
+          const fs = require('fs');
+          const path = require('path');
+          
+          // Check required files exist
+          const requiredFiles = [
+            'index.js',
+            'package.json',
+            'commands/badge-collect.js',
+            'events/deploy-commands.js'
+          ];
+          
+          requiredFiles.forEach(file => {
+            if (!fs.existsSync(file)) {
+              console.error('Missing file:', file);
+              process.exit(1);
+            }
+          });
+          
+          // Verify package.json has required dependencies
+          const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+          if (!pkg.dependencies['discord.js']) {
+            console.error('Missing discord.js dependency');
+            process.exit(1);
+          }
+          
+          console.log('All files and dependencies verified');
+        "
+    
+    - name: Syntax validation
+      run: cd bot && node -c index.js && node -c events/deploy-commands.js && node -c commands/badge-collect.js
+      
+    - name: Security audit
+      run: cd bot && npm audit --audit-level moderate
