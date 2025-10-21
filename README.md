@@ -35,7 +35,7 @@ npm start
 ```
 
 > [!WARNING]
-> Ensure your Discord bot token remains secure and never committed to version control. Use environment variables exclusively.
+> Ensure your Discord bot token remains secure and never committed to version control.
 
 Execute the `/badge` command in your Discord server and follow the official claim procedure after 24 hours.
 
