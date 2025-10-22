@@ -1,7 +1,5 @@
 ![Banner](https://i.imgur.com/uqbt4GM.jpeg)
 
-# Active Developer Badge Guide
-
 Professional Node.js implementation for Discord Active Developer Badge acquisition and deployment.
 
 ## Overview
